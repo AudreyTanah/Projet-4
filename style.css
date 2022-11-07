@@ -20,6 +20,12 @@ a:hover {
     cursor: pointer;
 }
 
+/*modifications (pour diminuer le poids des photos - conversion en svg + application propriétés*/
+.center-block {
+    background-color: white;
+    border-radius: 40%;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -95,6 +101,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+   
 }
 
 .b-parallax {
@@ -831,7 +838,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 
