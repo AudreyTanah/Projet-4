@@ -7,6 +7,8 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+ 
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -647,11 +649,14 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+}
+
+a {
+    color: white;
 }
 
 .container {
@@ -825,6 +830,7 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -837,6 +843,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
