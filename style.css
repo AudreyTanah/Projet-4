@@ -30,7 +30,6 @@ a:hover {
     font-size: 16px;
     margin-top: 10px;
     font-weight: 600;
-    color: ivory;
 }
 
 #page-loading-blocs-notifaction {
@@ -662,10 +661,17 @@ h4,
 h5,
 h6,
 label,
+p,
 .btn {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+}
+/*!!!AMELIORATION Accessibilité (contraste)!!!*/
+/*dissociation lien p (changement en span) car réglages de l'auteur du site sur plusieurs éléments du code*/
+.social-media {
+    display: inline-block;
+    color: rgb(232, 232, 226);
 }
 
 a {
