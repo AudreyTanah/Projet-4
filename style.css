@@ -19,11 +19,18 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
+/*!!! AMELIORATION DU SITE !!!*/
 /*modifications (pour diminuer le poids des photos - conversion en svg + application propriétés*/
 .center-block {
     background-color: white;
     border-radius: 40%;
+}
+/*liens reseaux sociaux*/
+.social-media {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: ivory;
 }
 
 #page-loading-blocs-notifaction {
@@ -654,7 +661,6 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn {
     font-family: "helvetica";
@@ -716,8 +722,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 40px;
 }
 
 h2 {
