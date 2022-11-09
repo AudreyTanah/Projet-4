@@ -51,8 +51,13 @@ a:hover {
 .citation {
     width: 100%;
 }
-
-
+/*Amélioration SEO visibilité liens footer*/
+li {
+    margin: 7px;
+}
+ul {
+    padding-left: 0px;
+}
 
 .bloc {
     width: 100%;
@@ -717,9 +722,9 @@ ul {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
+/*AMELIORATION (augmentation taille police*/
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -820,12 +825,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: rgb(224, 115,157);
+    background: rgb(245, 80, 143);
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: rgb(230, 142, 164)!important;
+    background: rgb(252, 98, 232)!important;
     color: #FFFFFF!important;
 }
 
