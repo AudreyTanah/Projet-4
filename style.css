@@ -59,6 +59,7 @@ ul {
     padding-left: 0px;
 }
 
+
 .bloc {
     width: 100%;
     clear: both;
@@ -825,13 +826,13 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: rgb(25, 144, 150);
-    color: #FFFFFF!important;
+    background: white;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: rgb(3, 16, 158)!important;
-    color: #FFFFFF!important;
+    background: rgb(47, 65, 197)!important;
+    color: white!important;
 }
 
 .ltc-white {
