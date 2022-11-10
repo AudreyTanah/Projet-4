@@ -572,7 +572,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family: serif;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -825,12 +825,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: rgb(245, 80, 143);
+    background: rgb(25, 144, 150);
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: rgb(252, 98, 232)!important;
+    background: rgb(3, 16, 158)!important;
     color: #FFFFFF!important;
 }
 
@@ -864,7 +864,7 @@ h4 {
 }*/
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.webp");
+    background-image: url("img/agence-la-panthere.jpg");
 }
 
 .bg-presentation {
