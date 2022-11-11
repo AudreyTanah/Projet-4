@@ -51,13 +51,7 @@ a:hover {
 .citation {
     width: 100%;
 }
-/*Amélioration SEO visibilité liens footer*/
-li {
-    margin: 7px;
-}
-ul {
-    padding-left: 0px;
-}
+
 
 
 .bloc {
@@ -899,7 +893,7 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .b-parallax {
         background-attachment: scroll;
     }
