@@ -42,10 +42,6 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }*/
 
-/*AMELIORATION*/
-.row {
-    width: 100%;
-}
 
 /*AMELIORATION*/
 .citation {
@@ -350,12 +346,18 @@ a:hover {
     z-index: 1;
 }
 /*Amélioration Mise en page*/
-li {
-    margin: 16px;
-}
-#li-1, #li-2 {
+
+#li-1 {
+    font-size: 16px;
+    text-decoration: inherit;
+} 
+
+#li-2 {
     font-size: 18px;
+    margin-left: 20px;
 }
+
+
 /*Amélioration Mise en page*/
 #name, #email, .form-group, #message {
     margin-top: 7px;
@@ -396,7 +398,7 @@ li {
 }
 
 .nav-invert .navbar-header,
-.nav-invert .navbar-brand {
+.nav-invert  {
     float: right;
     position: relative;
     z-index: 2;
@@ -449,7 +451,7 @@ li {
 }
 
 .nav > li > .dropdown a {
-    background: none!important;
+    /*background: none!important;*/
     display: block;
     padding: 14px 15px;
 }
@@ -758,7 +760,7 @@ p {
 }
 
 .social {
-    margin: 40px;
+    margin-top: 40px;
 }
 
 h2 {
