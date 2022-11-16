@@ -11,7 +11,7 @@ body {
 
 a,
 button {
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
     outline: none!important;
 }
 
@@ -26,21 +26,16 @@ a:hover {
     border-radius: 40%;
     width: 100px;
 }
-/*liens reseaux sociaux*/
-.social-media {
-    font-size: 16px;
-    margin-top: 10px;
-    font-weight: 600;
-}
 
-/*#page-loading-blocs-notifaction {
+
+#page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}*/
+}
 
 
 /*AMELIORATION*/
@@ -188,11 +183,12 @@ a:hover {
     border-color: rgba(255, 255, 255, 1);
 }
 
-.d-bloc .panel {
+.d-bloc .panel, .l-bloc {
     color: rgba(0, 0, 0, .5);
 }
 
-.d-bloc .panel button:hover {
+.d-bloc .panel button:hover,
+.l-bloc button:hover {
     color: rgba(0, 0, 0, .7);
 }
 
@@ -342,19 +338,9 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
+    margin-right: -16px;
     float: right;
     z-index: 1;
-}
-/*Amélioration Mise en page*/
-
-#li-1 {
-    font-size: 16px;
-    text-decoration: inherit;
-} 
-
-#li-2 {
-    font-size: 18px;
-    margin-left: 20px;
 }
 
 
@@ -398,22 +384,17 @@ a:hover {
 }
 
 .nav-invert .navbar-header,
-.nav-invert  {
+.nav-invert .navbar-brand  {
     float: right;
     position: relative;
     z-index: 2;
-}
-
-.site-navigation {
-    right: 120px;
 }
 
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
         top: 50%;
-        /*Amélioration*/
-        right: 120px;
+        right: 20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -451,7 +432,7 @@ a:hover {
 }
 
 .nav > li > .dropdown a {
-    /*background: none!important;*/
+    background: none!important;
     display: block;
     padding: 14px 15px;
 }
@@ -484,7 +465,7 @@ nav .caret {
 
 .mg-md {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .mg-lg {
@@ -699,19 +680,18 @@ p,
     font-weight: 400;
     color: #575757!important;
 }
+
+a {
+    font-family: serif;
+    font-weight: 400;
+    color: #575757!important; 
+    
+}
 /*!!!AMELIORATION Accessibilité (contraste)!!!*/
 /*dissociation lien p (changement en span) car réglages de l'auteur du site sur plusieurs éléments du code*/
 .social-media {
     display: inline-block;
     color: rgb(232, 232, 226);
-}
-
-a {
-    color: white;
-}
-
-ul {
-    margin-left: 0px;
 }
 
 .container {
@@ -800,13 +780,16 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    /*Amélioration*/
+    margin-bottom: 12px;
+    margin-top: 20px;
 }
 
-.portfolio-row {
-    margin-bottom: 44px;
+/*Amélioration*/
+/*.portfolio-row {
+    /*margin-bottom: 44px;
     margin-top: 50px;
-}
+}*/
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
@@ -979,6 +962,7 @@ h4 {
     }
     .navbar .nav {
         padding-top: 0;
+        border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
     }
     .navbar.row {
@@ -1014,7 +998,7 @@ h4 {
         background: rgba(0, 0, 0, .8);
     }
     #hero-bloc .navbar .nav a {
-        color: black;
+        color: rgba(255,255,255, .6);
     }
     .hero {
         padding: 50px 0;
