@@ -27,6 +27,11 @@ a:hover {
     width: 100px;
 }
 
+/*Amélioration*/
+.link {
+    font-size: 18px;
+}
+
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -692,6 +697,8 @@ a {
 .social-media {
     display: inline-block;
     color: rgb(232, 232, 226);
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 .container {
