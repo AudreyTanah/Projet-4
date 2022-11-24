@@ -12,8 +12,7 @@
 	<script src="./js/jqBootstrapValidation-mini.js"></script>
 	<script src="./js/formHandler-mini.js"></script>
     
-    
-	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap-mini.css">
 	<link rel="stylesheet" type="text/css" href="style-mini.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome-mini.css">
@@ -79,21 +78,21 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" method="post">
 					<div class="form-group">
 						<label for="name">
 							Nom
 						</label>
-						<input type="name" id="name" class="form-control" required />
+						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
 						<label for="email">
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input id="email" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label for="form-control">
+						<label id="form-control">
 							Comment-vous nous avez connu?
 						</label>
 						<input class="form-control" type="email" required id="input_504" />
