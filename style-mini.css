@@ -487,9 +487,10 @@ h1, h2, h3, h4, h5, h6, label, .btn, .link  {
 }
 p {
     font-family: "helvetica";
+    color:#3f3f3f;
 }
 .pdg {
-    color: #a7a3a3;
+    color: #928f8f;
 }
 
 a {
