@@ -1,5 +1,5 @@
-# Projet-4
-Projet-OC/Optimisation-SEO-Accessibilité.
+Projet-4 La Panthère
+Optimisation-SEO-Accessibilité.
 
 Je travaille pour l'agence La Panthère, une grande agence de web design basée à Lyon. 
 L’activité de l’entreprise a bien démarrée mais aujourd’hui, elle est en perte de vitesse. 
